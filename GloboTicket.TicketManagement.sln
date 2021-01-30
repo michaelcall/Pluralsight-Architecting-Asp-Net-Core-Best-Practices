@@ -3,11 +3,58 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FBE36704-71F9-4A86-A487-C1BC0592B09A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2412769F-5990-4DBD-A091-7A4C5B3EE107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Domain", "src\Core\GloboTicket.TicketManagement.Domain\GloboTicket.TicketManagement.Domain.csproj", "{62662E41-3946-47E7-898A-2068E0FF8E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Aplication", "src\Core\GloboTicket.TicketManagement.Aplication\GloboTicket.TicketManagement.Aplication.csproj", "{49BA0D16-977D-4205-9B88-943C1DC5AD32}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2384E84-4356-4DD4-95DD-3FF5BF60FB0B}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Debug|x64.Build.0 = Debug|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Debug|x86.Build.0 = Debug|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Release|x64.ActiveCfg = Release|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Release|x64.Build.0 = Release|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Release|x86.ActiveCfg = Release|Any CPU
+		{62662E41-3946-47E7-898A-2068E0FF8E14}.Release|x86.Build.0 = Release|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Debug|x64.Build.0 = Debug|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Debug|x86.Build.0 = Debug|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Release|x64.ActiveCfg = Release|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Release|x64.Build.0 = Release|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Release|x86.ActiveCfg = Release|Any CPU
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2412769F-5990-4DBD-A091-7A4C5B3EE107} = {FBE36704-71F9-4A86-A487-C1BC0592B09A}
+		{62662E41-3946-47E7-898A-2068E0FF8E14} = {2412769F-5990-4DBD-A091-7A4C5B3EE107}
+		{49BA0D16-977D-4205-9B88-943C1DC5AD32} = {2412769F-5990-4DBD-A091-7A4C5B3EE107}
 	EndGlobalSection
 EndGlobal
