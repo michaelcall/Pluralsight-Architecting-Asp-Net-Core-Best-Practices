@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1cwBlYIJ+xNaLp+q2kI9yzmQPxlDmRO3OrEaL6Ilyf41JUZqaOKmP6NV/DDMLuAbWNfUhjQo7sqsinSU3+Aknw==",
+  "dgSpecHash": "z+Dh7t2Gou3VA7GqvG7GUdgWYLZoa7H1/ygnE6v+5jPdttPd/m9sTLORrNYO3u0tU5GXzZ7GxqpJPWC031mVEQ==",
   "success": true,
   "projectFilePath": "F:\\Source\\GloboTicket.TicketManagement\\src\\Core\\GloboTicket.TicketManagement.Domain\\GloboTicket.TicketManagement.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hnic\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\hnic\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
